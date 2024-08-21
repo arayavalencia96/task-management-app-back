@@ -76,6 +76,15 @@
     "testEnvironment": "node",
     "moduleNameMapper": {
       "^src/(.*)$": "<rootDir>/$1"
-    }
+    },
+    "coveragePathIgnorePatterns": [
+      "/node_modules/",
+      "\\.module\\.ts$",
+      "/dist/"],
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "\\.module\\.ts$",
+      "/dist/"
+    ]
   }
 }

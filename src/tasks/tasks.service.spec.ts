@@ -8,7 +8,7 @@ import { User } from 'src/users/user.entity';
 import { Project } from 'src/projects/project.entity';
 import { PaginationDto } from 'src/common/dto/pagination.dto';
 
-fdescribe('TasksService', () => {
+describe('TasksService', () => {
   let service: TasksService;
   let taskRepository: Repository<Task>;
   let userRepository: Repository<User>;
